@@ -3,7 +3,7 @@ pipeline {
          stages {
                  stage('Build') {
                  steps {
-                     echo 'Hi, GeekFlare. Starting to build the App.'
+                     echo 'Hiii, GeekFlare. Starting to build the App.'
                  }
                  }
                  stage('Test') {
@@ -22,7 +22,7 @@ pipeline {
                             agent {
                                     docker {
                                             reuseNode true
-                                            image 'nginx'
+                                            image 'nginx:latest'
                                            }
                                     }
                             
