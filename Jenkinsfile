@@ -52,8 +52,7 @@ spec:
         GIT_CREDS = credentials('github')
         HELM_GIT_REPO_URL = "https://github.com/sthitaprajnadas/rsvpapp-helm-cicd.git"
         GIT_REPO_EMAIL = 'sthitaprajnadas@gmail.com'
-        GIT_REPO_BRANCH = "master"
-          
+        GIT_REPO_BRANCH = "master"          
        // Update above variables with your user details
       }
       steps {
