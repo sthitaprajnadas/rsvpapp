@@ -55,8 +55,7 @@ spec:
         GIT_REPO_BRANCH = "master"          
        // Update above variables with your user details
       }
-      steps {
-        
+      steps {        
         container('tools') {
             sh "git clone https://${env.HELM_GIT_REPO_URL}"
             sh "git config --global user.email ${env.GIT_REPO_EMAIL}"
